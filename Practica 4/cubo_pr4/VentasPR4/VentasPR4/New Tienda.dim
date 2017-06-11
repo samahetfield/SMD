@@ -1,0 +1,310 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="36ba80bf-4b67-4405-802a-418d733bca78" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>New Tienda</ID>
+  <Name>New Tienda</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3102" scrolltop="-6562" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10266" y="17119" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="New_Tienda" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4022" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b60f00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="New_Tienda" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3102</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6562</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="156">
+            <Shape Id="Id Tienda" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Tienda" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Tienda" Expanded="true">
+              <Attributes>
+                <Attribute Id="Tienda" />
+                <Attribute Id="Codigo Tienda" />
+              </Attributes>
+              <Position x="220" y="20" />
+            </Shape>
+            <Shape Id="Prov R Ventas" Expanded="false">
+              <Attributes>
+                <Attribute Id="Prov R Ventas" />
+              </Attributes>
+              <Position x="420" y="20" />
+            </Shape>
+            <Shape Id="Region Ventas" Expanded="false">
+              <Attributes>
+                <Attribute Id="Region Ventas" />
+              </Attributes>
+              <Position x="620" y="20" />
+            </Shape>
+            <Shape Id="Prov CCAA" Expanded="false">
+              <Attributes>
+                <Attribute Id="Prov CCAA" />
+              </Attributes>
+              <Position x="420" y="68" />
+            </Shape>
+            <Shape Id="Comunidad Autonoma" Expanded="false">
+              <Attributes>
+                <Attribute Id="Comunidad Autonoma" />
+              </Attributes>
+              <Position x="620" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="eb96f6e1-25eb-468f-8109-6a768f919e55">
+    <DataSourceViewID>Venta PR4</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="2c63d3f0-b08d-48b9-b8e8-8d485d8a269f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1f367912-0399-440b-aa8c-9c4f8c62b854">
+      <ID>Id Tienda</ID>
+      <Name>Id Tienda</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="93a02aba-e419-4e33-81f6-9e729480ccc5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd3144a2-8957-4cc7-ae63-d664accd8bfe">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Id_Tienda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="50338a1e-1f98-4c54-93b9-41e31a5838ef">
+          <AttributeID>Tienda</AttributeID>
+          <Name>Tienda</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="e106cbec-5373-4fa1-ae62-10607237eb51">
+      <ID>Region Ventas</ID>
+      <Name>Region Ventas</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="77a03b7b-cad6-4550-bec5-3db36dfc9bef">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d355f33c-d16a-4b14-80fd-519e67e0f2a4">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Region_Ventas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf811c22-d55c-4188-a51b-73fbcbd2e6ec">
+      <ID>Prov R Ventas</ID>
+      <Name>Prov R Ventas</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97295804-3f43-473a-87cd-dc60c3d4c072">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cbeedde4-edd9-4b55-ae71-b722f98fdd4c">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Prov_RVentas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b370664f-f6bc-4709-b28c-c4410ba6715e">
+          <AttributeID>Region Ventas</AttributeID>
+          <Name>Region Ventas</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="ebce666d-de1b-4b01-a999-312a59ec53b1">
+      <ID>Comunidad Autonoma</ID>
+      <Name>Comunidad Autonoma</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e7f1fd6f-2343-4034-b541-b2e38f3f6336">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4719ca52-0532-4300-8129-89aa99e7f328">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Comunidad_Autonoma</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="db566a7a-64d5-43f3-8752-b20362edef2d">
+      <ID>Prov CCAA</ID>
+      <Name>Prov CCAA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53609bdc-d577-4ad3-8153-c79b99734ed0">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ddb7194-7990-4fa0-8e16-a6cee7abfc42">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Prov_CCAA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9201e987-5a61-423e-a6cf-18196f22feed">
+          <AttributeID>Comunidad Autonoma</AttributeID>
+          <Name>Comunidad Autonoma</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="dc7b4782-76eb-414a-96c6-d36d071cab12">
+      <ID>Tienda</ID>
+      <Name>Tienda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a944290d-0769-404e-a17a-c3785f67a98b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="379fb4e8-1c3d-4aba-a2fe-85da13f28a04">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Tienda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e34ee999-d587-440a-9580-02e348a77dba">
+          <AttributeID>Prov CCAA</AttributeID>
+          <Name>Prov CCAA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3d160dd3-16f5-4681-9165-0be244d99ff2">
+          <AttributeID>Prov R Ventas</AttributeID>
+          <Name>Prov R Ventas</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4aaedd5c-a74f-4ded-a6ff-e5aed83a7d05">
+          <AttributeID>Codigo Tienda</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Codigo Tienda</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce9372c5-984d-48a9-a07f-16717b68a622">
+      <ID>Codigo Tienda</ID>
+      <Name>Codigo Tienda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="18f42abb-5c87-4e4b-822c-834e5b2dbd75">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2dc7773-05df-45d3-af7e-94a8372efb9f">
+            <TableID>New_Tienda</TableID>
+            <ColumnID>Codigo_Tienda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f47c88ec-6755-46ea-b659-ae003349eddb">
+      <ID>Hierarchy</ID>
+      <Name>J_Donde_RVentas</Name>
+      <Levels>
+        <Level dwd:design-time-name="6e58ce4f-4d42-4fee-a45b-7b04dc55cf68">
+          <ID>Region Ventas</ID>
+          <Name>Region Ventas</Name>
+          <SourceAttributeID>Region Ventas</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="aa19296e-1801-4334-9065-6b5588aa970d">
+          <ID>Prov R Ventas</ID>
+          <Name>Prov R Ventas</Name>
+          <SourceAttributeID>Prov R Ventas</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8697a99a-2efe-4f97-935f-9bf1b485b34c">
+          <ID>Tienda</ID>
+          <Name>Tienda</Name>
+          <SourceAttributeID>Tienda</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="12e3c372-1889-4d29-9b21-6cec33610d7b">
+      <ID>Hierarchy 1</ID>
+      <Name>J_Donde_CCAA</Name>
+      <Levels>
+        <Level dwd:design-time-name="c73e7478-5c91-4e62-9c73-79b27a1b46da">
+          <ID>Comunidad Autonoma</ID>
+          <Name>Comunidad Autonoma</Name>
+          <SourceAttributeID>Comunidad Autonoma</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="41aab7eb-41b0-45f4-a67a-4544d4b2a442">
+          <ID>Prov CCAA</ID>
+          <Name>Prov CCAA</Name>
+          <SourceAttributeID>Prov CCAA</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="cb192852-c704-4664-84ad-fab70e16c5a7">
+          <ID>Tienda</ID>
+          <Name>Tienda</Name>
+          <SourceAttributeID>Tienda</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

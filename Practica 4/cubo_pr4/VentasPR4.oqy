@@ -1,0 +1,5 @@
+QueryType=OLEDB
+Version=1
+CommandType=Cube
+Connection=Provider=MSOLAP.4;User ID="";Initial Catalog=VentasPR4;Data Source=EI142250;Location=EI142250
+CommandText=Venta PR4

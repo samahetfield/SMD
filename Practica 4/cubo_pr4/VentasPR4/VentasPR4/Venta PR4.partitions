@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="50c3252a-a72e-413f-90a5-c83e4036936b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Venta PR4</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Ventas PR4</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0ee1beb3-4e21-44df-b52e-88e7dfb83131">
+          <ID>Ventas PR4</ID>
+          <Name>Ventas PR4</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1f9048ab-532b-49e0-ab86-6392352184c8">
+            <DataSourceViewID>Venta PR4</DataSourceViewID>
+            <TableID>ventasPR4</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
