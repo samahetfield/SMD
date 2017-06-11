@@ -1,0 +1,73 @@
+Spreadsheet Setup Area Follows:					
+Report Descriptor:	    1: Tarea2						
+StarTracker Version:	2.055						
+Dictionary Version:	2.055						
+Database Type:	ACCESS						
+Database Name:	SMDVACIA.MDB						
+Family:	Ventas en una cadena de librerias						
+Report Title:							
+Number of Columns:	5						
+Number of Dimensions:	3						
+Number of Attributes:	3						
+Table Name:			Libro	Tienda	Tienda	Ventas	Ventas
+Field Name:			Categoria	Poblacion	Region_Ventas	Importe	Unidades
+Data Type:			10	10	10		
+Aggregation Type:						Sum	Sum
+Compare Type:							
+Display Type:							
+Reverse Flag:			False	False	False	False	False
+Hide Flag:			False	False	False	False	False
+Sort Priority:			None	None	None	None	None
+Exception:							
+Reset By:							
+Break By:							
+Break Filler:							
+Format Spec:			0	0	0	$#,##0.00	#,##0
+Column Head:							
+Time Type:							
+Drill Down Report:							
+Printing Specs:	Times New Roman,8,8,14,10,10,0,5,12						
+Status:			full	full	full	full	full
+Atom Count:			1	1	1	1	1
+Versus Dim Group0:							
+Versus Dim Group1:							
+Versus Dim Group2:							
+Versus Dim Group3:							
+Versus Dim Group4:							
+Versus Dim Group5:							
+Versus Dim Group6:							
+Versus Dim Group7:							
+Versus Dim Group8:							
+Versus Dim Group9:							
+Versus Dim Group10:							
+Versus Dim Group11:							
+Versus Dim Group12:							
+Versus Dim Group13:							
+Versus Dim Group14:							
+Versus Dim Group15:							
+Versus Dim Group16:							
+Versus Dim Group17:							
+Versus Dim Group18:							
+Versus Dim Group19:							
+Base Group0:	1 al 7 ene 2015					Fecha!!!1 al 7 ene 2015***[ID_FECHA]=[ID_FECHA]\\\	Fecha!!!1 al 7 ene 2015***[ID_FECHA]=[ID_FECHA]\\\
+Base Group1:	All Libros					Libro!!!All Libros***[ID_LIBRO]=[ID_LIBRO]\\\	Libro!!!All Libros***[ID_LIBRO]=[ID_LIBRO]\\\
+Base Group2:	All Tiendas					Tienda!!!All Tiendas***[ID_TIENDA]=[ID_TIENDA]\\\	Tienda!!!All Tiendas***[ID_TIENDA]=[ID_TIENDA]\\\
+Base Group3:							
+Base Group4:							
+Base Group5:							
+Base Group6:							
+Base Group7:							
+Base Group8:							
+Base Group9:							
+Base Group10:							
+Base Group11:							
+Base Group12:							
+Base Group13:							
+Base Group14:							
+Base Group15:							
+Base Group16:							
+Base Group17:							
+Base Group18:							
+Base Group19:							
+							
+
