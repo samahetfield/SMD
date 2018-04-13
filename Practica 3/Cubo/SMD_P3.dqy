@@ -1,0 +1,7 @@
+XLODBC
+1
+DSN=MS Access Database;DBQ=C:\Documents and Settings\Mari Carmen\Escritorio\ventaPR2.mdb;DefaultDir=C:\Documents and Settings\Mari Carmen\Escritorio;DriverId=25;FIL=MS Access;MaxBufferSize=2048;PageTimeout=5;
+SELECT MOLAP_P3.Categoria, MOLAP_P3.Titulo_Categoria, MOLAP_P3.ISBN_Categoria, MOLAP_P3.Autor, MOLAP_P3.Titulo_Autor, MOLAP_P3.ISBN_Autor, MOLAP_P3.Region_Ventas, MOLAP_P3.Tienda_RVentas, MOLAP_P3.Comunidad_Autonoma, MOLAP_P3.Poblacion, MOLAP_P3.Tienda_Poblacion, MOLAP_P3.Anyo, MOLAP_P3.Fecha_Anyo, MOLAP_P3.Mes_Letras, MOLAP_P3.Fecha_Mes, MOLAP_P3.Dia_Semana_Letras, MOLAP_P3.Fecha_Semana, MOLAP_P3.Importe, MOLAP_P3.Unidades, MOLAP_P3.Clientes, MOLAP_P3.NumMedUniClient  FROM `C:\Documents and Settings\Mari Carmen\Escritorio\ventaPR2`.MOLAP_P3 MOLAP_P3
+
+
+Categoria	Titulo_Categoria	ISBN_Categoria	Autor	Titulo_Autor	ISBN_Autor	Region_Ventas	Tienda_RVentas	Comunidad_Autonoma	Poblacion	Tienda_Poblacion	Anyo	Fecha_Anyo	Mes_Letras	Fecha_Mes	Dia_Semana_Letras	Fecha_Semana	Importe	Unidades	Clientes	NumMedUniClient
